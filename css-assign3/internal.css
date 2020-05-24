@@ -11,6 +11,7 @@ body {
     background-color: purple;
     border-radius: 0;
     border: 0;
+    min-height: 70px
 }
 
 #header-nav button {
@@ -23,16 +24,20 @@ body {
 }
 
 .navbar-brand, .navbar-nav li a {
-    line-height: 76px;
+    line-height: 80px;
     height: 50px;
     padding-top: 0;
 }
 
 .navbar-brand h1 {
-    color: black;
-    font-family: 'Abril Fatface', cursive;
-    font-weight: bolder;
-    font-size: 1.4em;
+   font-family: 'Abril Fatface', cursive;
+   color: black;
+   font-size: 1.4em;
+   font-weight: bolder;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   line-height: .75;
+
 }
 
 .navbar-brand a:hover {
@@ -67,7 +72,7 @@ body {
 #main-content h2 {
     font-size: 2.9em;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
@@ -79,5 +84,5 @@ body {
 
 #main-section {
     background-color: pink;
-    padding: 30px;
+    padding: 20px;
 }
